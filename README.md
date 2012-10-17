@@ -21,7 +21,7 @@ All themes for the gingerbread based recovery consist of 21 pngs files and one i
 	* progress_fill.png (set this to your theme color).
 	* indeterminate1.png - indeterminate6.png (recommended that you pull these from an existing theme as well).
 <ul>
-<li>navigation icons (defined as following):</li>
+<li>8 navigation icons (defined as following):</li>
 </ul>
 	* icon_select.png : select icon.
 	* icon_selectM.png : select icon when depressed.
