@@ -49,6 +49,7 @@ One thing to consider before creating a theme is that not all devices use the sa
 <ul>
 <li>Once you have your theme created and tested, feel free to submit it for sharing with other Cannibal Open Touch users by forking this repo and opening a pull request.</li>
 <li>Please make sure all pull requests use the following format for branch names:</li>
+</ul>
 	* XX-RESxRES
 	* Where XX is the recovery base; for example 'gb' for gingerbread.
 	* The res entries are dependent of the device where X or Y is listed prior in order dependent on whether the device is portrait or landscape. Please see current branch names for an example.
