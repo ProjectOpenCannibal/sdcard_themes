@@ -5,7 +5,7 @@ The included themes are examples for custom sdcard themes; these can be side-loa
 
 At this time the theme engine only supports one custom theme at a time to be loaded from '/sdcard/cotrecovery/theme/'.
 
-All themes consists of 21 pngs files and one ini file (png defined as following):
+All themes for the gingerbread based recovery consist of 21 pngs files and one ini file (png defined as following):
 <ul>
 <li>A primary background png to be labeled icon_background.png</li>
 <li>4 secondary background images to be displayed during different processes (these are):</li>
