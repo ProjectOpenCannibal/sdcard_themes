@@ -39,7 +39,7 @@ The theme ini should be something similar to the following (replace the colors w
 	;
 	
 	[Theme]
-	Name = dooderbuttblue ; Theme name
+	Name = custom ; Do not change this!
 	UICOLOR0 = 0 ; Color0
 	UICOLOR1 = 0 ; Color1
 	UICOLOR2 = 255 ; Color2
