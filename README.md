@@ -52,4 +52,5 @@ One thing to consider before creating a theme is that not all devices use the sa
 </ul>
 	* XX-RESxRES
 	* Where XX is the recovery base; for example 'gb' for gingerbread.
-	* The res entries are dependent of the device where X or Y is listed prior in order dependent on whether the device is portrait or landscape. Please see current branch names for an example.
+	* The res entries are dependent of the device where X or Y is listed prior in order dependent on whether the device is portrait or landscape.
+	* Please see current branch names for an example.
