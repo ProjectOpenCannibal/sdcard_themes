@@ -3,7 +3,7 @@
 
 The included themes are examples for custom sdcard themes; these can be side-loaded and ran on any device running Cannibal Open Touch Recovery v2.1-dev2 or above.
 
-At this time the theme engine only supports one custom theme at a time to be loaded from '/sdcard/cotrecovery/theme/'.
+At this time the theme engine only supports one custom theme at a time to be loaded from '/sdcard/cotrecovery/theme/custom/'.
 
 All themes for the gingerbread based recovery consist of 21 pngs files and one ini file (png defined as following):
 <ul>
