@@ -5,21 +5,25 @@ The included themes are examples for custom sdcard themes; these can be side-loa
 
 At this time the theme engine only supports one custom theme at a time to be loaded from '/sdcard/cotrecovery/theme/custom/'.
 
-All themes for the gingerbread based recovery consist of 21 pngs files and one ini file (png defined as following):
+All themes for the jellybean based recovery consist of 28 pngs files and one ini file (png defined as following):
 <ul>
 <li>A primary background png to be labeled icon_background.png</li>
-<li>4 secondary background images to be displayed during different processes (these are):</li>
+<li>3 secondary background images to be displayed during different processes (these are):</li>
 </ul>
-	* icon_install.png : to be displayed when installing a zip.
 	* icon_error.png : to be displayed whenever there is a generic error.
 	* icon_firmware_install.png : to be displayed when flashing a firmware update (this is uncommon).
 	* icon_firmware_error.png : to be displayed upon error while flashing a firmware update (like the previous this is uncommon).
+<ul>
+<li>8 installing overlay images (to be shown as a secondary progress indicator)</li>
+</ul>
+	* icon_installing.png : present during the complete install (this goes under the overlays as the complete background)
+	* icon_installing_overlay01.png - icon_installing_overlay07.png (pull these from another theme and modify accordingly)
 <ul>
 <li>8 progress indicator images (as listed):</li>
 </ul>
 	* progress_empty.png (recommended that you pull this from an existing theme).
 	* progress_fill.png (set this to your theme color).
-	* indeterminate1.png - indeterminate6.png (recommended that you pull these from an existing theme as well).
+	* indeterminate01.png - indeterminate06.png (recommended that you pull these from an existing theme as well).
 <ul>
 <li>8 navigation icons (defined as following):</li>
 </ul>
@@ -51,6 +55,6 @@ One thing to consider before creating a theme is that not all devices use the sa
 <li>Please make sure all pull requests use the following format for branch names:</li>
 </ul>
 	* XX-RESxRES
-	* Where XX is the recovery base; for example 'gb' for gingerbread.
+	* Where XX is the recovery base; for example 'jb' for gingerbread.
 	* The res entries are dependent of the device where X or Y is listed prior in order dependent on whether the device is portrait or landscape.
 	* Please see current branch names for an example.
