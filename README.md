@@ -5,7 +5,7 @@ The included themes are examples for custom sdcard themes; these can be side-loa
 
 At this time the theme engine only supports one custom theme at a time to be loaded from '/sdcard/cotrecovery/theme/custom/'.
 
-All themes for the jellybean based recovery consist of 28 pngs files and one ini file (png defined as following):
+All themes for the jellybean based recovery consist of 29 pngs files and one ini file (png defined as following):
 <ul>
 <li>A primary background png to be labeled icon_background.png</li>
 <li>3 secondary background images to be displayed during different processes (these are):</li>
@@ -35,6 +35,9 @@ All themes for the jellybean based recovery consist of 28 pngs files and one ini
 	* icon_upM.png : up icon when depressed.
 	* icon_down.png : down icon.
 	* icon_downM.png : down icon when depressed.
+<ul>
+<li>Lastly copy over the tscal_step.png from any of our current themes.</li>
+</ul>
 
 The theme ini should be something similar to the following (replace the colors with those of the html color code for the desired theme).
 
